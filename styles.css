@@ -1,11 +1,23 @@
 table {
-border-collapse: collapse;
-border-radius: 10px;
-overflow: hidden; /* Ensure rounded corners are visible */
+border-collapse: separate;
+border-spacing: 0;
+border: 1px solid grey; /* Set border color to grey */
+border-radius: 10px !important; /* Set border radius */
 }
 
-th,
+
 td {
-border: none;
-padding: 8px;
+padding: 8px 40px;
 }
+
+thead {
+background-color: blueviolet;
+color: white;
+}
+
+tbody tr:nth-child(odd) {
+background-color: white;
+}
+
+tbody tr:nth-child(even) {
+background-color: lightgray;
