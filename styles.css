@@ -1,38 +1,19 @@
-table {
-	
- /* Set border color to grey */
-border-radius: 10px !important; /* Set border radius */
-	border-collapse:separate;
-	border-spacing:0px;
-	
-
-}
-
-
-td {
-padding: 8px 40px;
-}
-
-
-tbody tr:nth-child(odd) {
-background-color: lightgray;
-}
-
-tbody tr:nth-child(even) {
-background-color: white;
-
-}
-.heading{
-	background-color:blueviolet !important;
-
+/* your code */
+thead{
+	background-color :rgb(33,90,142);
 	color:white;
-	border-top-left-radius:20px !important;
-
-	
-	
 }
-.Hackerman{
-	border:2px solid black !important;
+tr:nth-child(even){
+	background-color:lightgrey;
 }
-
-
+tr,th{
+	padding:15px;
+	text-align:left;
+}
+tr:hover{
+	background-color:seagreen;
+}
+table{
+	border-radius: 10px;
+	 border: 4px solid white;
+}
